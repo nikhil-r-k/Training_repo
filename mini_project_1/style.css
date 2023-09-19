@@ -46,7 +46,7 @@ html,body{
 }
 #list{
     width: 100%;
-    background-color: aqua;
+    background-color: rgb(157, 36, 244);
     padding: 10px;
     display: flex;
     row-gap: 5px;
