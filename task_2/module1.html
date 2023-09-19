@@ -1,0 +1,26 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module 1</title>
+    <link rel="stylesheet" href="module.css">
+    <script src="module.js"></script>
+</head>
+<body>
+    <div id="container">
+        <div id="user-details">
+            <p id="username">User: </p> 
+            Module: 1
+        </div>
+        <div id="description">
+            add the description.
+        </div>
+    </div>
+    <div id="date">
+        <p id="datetime"></p>
+    </div>
+    <script>
+        document.getElementById('username').innerHTML+=localStorage.getItem('userID')
+    </script>
+</body>
+</html>

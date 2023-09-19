@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MINI Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="info">
+            <div id="control-bar">
+                <h3>Tasks</h3>
+                <button type="button" id="addNew" onclick="newtask()">+</button>
+            </div>
+            <div id="newmov">
+                <form action="" style="display: flex; flex-direction: column; align-items: center; row-gap: 2px;">
+                    <input type="text" placeholder="name" id="name">
+                    <input type="text" placeholder="description"id="description" disabled="true">
+                <div>
+                    <button type="button" id="Add" onclick="addtask()" disabled>Add</button>
+                    <button type="button" onclick="document.getElementById('newmov').style.display='none'">X</button>
+                </div>
+                </form>
+            </div>
+            <div id="list">              
+            </div>
+        </div>
+
+
+        <div id="preview">
+            <p>here comes the preview</p>
+        </div>
+
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

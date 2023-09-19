@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 3</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function closeall(){
+            document.getElementById("middle").style.display="none"
+            document.getElementById('close').style.display='none'
+        }
+    </script>
+</head>
+<body>
+    <div id="container">
+        <div id="outer">
+            <div>
+
+                <button type="button" onclick="document.getElementById('inner').style.backgroundColor='transparent'">RED</button>
+                <button type="button" onclick="document.getElementById('inner').style.backgroundColor='green'">Green</button>
+                <button type="button" id="close" style="width:30px" onclick="closeall()"> X </button>
+
+            </div>
+            <div id="middle">
+                <div id="inner">
+                    <p>nikhil</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
