@@ -6,13 +6,13 @@ class movie{
 let movies=[
     {
     taskNo:1,
-    name:"nikhil1",
-    description:"task1"
+    name:"TASK 1",
+    description:"DESCRIPTION FOR TASK 1"
     },
     {
     taskNo:2,
-    name:"nikhil2",
-    description:"task2"
+    name:"TASK 2",
+    description:"DESCRIPTION FOR TASK 2"
     },
 ]
 
@@ -57,6 +57,7 @@ document.getElementById('name').addEventListener('keyup',()=>{
     }
     else{
         document.getElementById('description').setAttribute("disabled","true")
+        document.getElementById('Add').setAttribute("disabled","disabled")
     }
 })
 document.getElementById('description').addEventListener('keyup',()=>{
